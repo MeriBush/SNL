@@ -1,4 +1,39 @@
+body {
+    color: #325E43;
+    background: white;
+}
+
 .wrapper {
     width: 90%;
     margin: auto;
+}
+
+.navbar {
+    width: 120%;
+    transform: translateX(-20px);
+    height: 100px;
+    background-color: #A1A5D7;
+    box-shadow: 5px 5px 10px #325E43;
+}
+
+.iconSection {
+    display: flex;
+}
+
+.iconSection h1 {
+    position: relative;
+    top: 10px;
+}
+
+.icon {
+    position: relative;
+    height: 90px;
+    margin: 5px 10px 0 30px;
+    border-radius: 50%;
+}
+
+.jumbotron {
+    max-height: 300px;
+    overflow: hidden;
+    margin-top: 30px;
 }
