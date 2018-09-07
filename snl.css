@@ -1,7 +1,13 @@
-.aboutMe{
-    color: 325E43
-}
 
+.aboutMe {
+    background-color: #A1A5D7;
+    color: #325E43;
+    font-family: 'Anton', sans-serif;
+}
+.list {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
 
 body {
     color: #325E43;
@@ -43,4 +49,23 @@ body {
     max-height: 300px;
     overflow: hidden;
     margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.thumbnail  {
+    width: 350px;
+    height: 200px;
+    margin: 30px;
+    
+}
+
+.thumbnail img {
+    position: relative;
+    width: 350px;
+    height: 200px;
 }
