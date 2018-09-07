@@ -1,3 +1,9 @@
-.aboutMe{
-    color: 325E43
+.aboutMe {
+    background-color: #A1A5D7;
+    color: #325E43;
+    font-family: 'Anton', sans-serif;
+}
+.list {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
 }
